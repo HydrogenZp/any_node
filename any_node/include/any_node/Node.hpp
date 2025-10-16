@@ -9,7 +9,7 @@
 #ifndef ROS2_BUILD
 #include <ros/ros.h>
 #else /* ROS2_BUILD */
-#include "rclcpp/rclcpp.hpp"
+#include <rclcpp/rclcpp.hpp>
 #endif /* ROS2_BUILD */
 #include <sched.h>
 #include <unistd.h>  // for getpid()
